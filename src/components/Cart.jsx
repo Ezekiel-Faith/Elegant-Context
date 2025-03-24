@@ -18,7 +18,7 @@ function Cart({ onUpdateItemQuantity }) {
             const formattedPrice = `$${item.price.toFixed(2)}`;
 
             return (
-              <li key={item.id}>
+              <li id='products' key={item.id}>
                 <div>
                   <span>{item.name}</span>
                   <span> ({formattedPrice})</span>

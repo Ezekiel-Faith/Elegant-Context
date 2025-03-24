@@ -5,7 +5,7 @@ function Shop({ children }) {
     <section id='shop'>
       <h2>Elegant Clothing For Everyone</h2>
       {children}
-      <ul id='products'></ul>
+      <ul></ul>
     </section>
   );
 }
